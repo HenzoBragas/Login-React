@@ -1,0 +1,32 @@
+.app-container{
+   margin: 150px auto;
+      
+}
+.app-container h1{
+    margin-bottom: 20px;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.app-container p{
+    margin-bottom: 50px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.btn-sign{
+    width: 218px;
+    height: 55px;
+    background: linear-gradient(to bottom, rgba(76,78, 242, 1)0%, rgba(109,85,236,1)100%);
+    border: 1px solid rgba(255, 252, 252, 0.8);
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.btn-sign:hover{
+    transform: translateY(-10px);
+    background: linear-gradient(to bottom, rgb(105, 108, 241)0%, rgb(111, 89, 224)100%);
+}

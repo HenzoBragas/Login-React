@@ -1,0 +1,86 @@
+.app-login{
+    margin-top: 80px;
+    margin-right: 200px;
+}
+
+.app-login h1{
+    font-size: 50px;
+    font-weight: 600;
+    
+}
+
+.btn-social{
+    margin: 25px 0;
+}
+.btn-links{
+    padding: 15px 20px;
+    margin-left: 10px;
+    background-color: white;
+    border: 1px solid #c7c7c7;
+    border-radius: 20px;
+    cursor: pointer;
+    translate: 0.5s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.btn-links:hover{
+    transform: scale(1.0) translateY(-8px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.app-login p{
+    font-size: 15px;
+    color: #a9aaab;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.app-login form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.app-login form input{
+    width: 355px;
+    height: 34.56px;
+    border-radius: 10px;   
+    background-color: #e8e9ea ;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-size: 15px;
+}
+
+
+.app-login form input:hover{
+    border: none;
+    box-shadow: none;
+}
+
+.app-login form a{
+    margin-top: 15px;
+    color: #a9aaab;
+    transition: color 0.3s ease
+}
+
+.app-login form a:hover{
+    color: #0056b3;
+}
+
+.btn-default{
+    margin-top: 15px;
+    background-color: #9d5fe4;
+    width: 157px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-default:hover{
+    transform: translateY(-10px);
+}
