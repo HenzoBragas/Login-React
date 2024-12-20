@@ -1,7 +1,9 @@
 import { useState } from 'react'
 import './App.css'
-import Login from './components/Login/Login'
-import Sign from './components/Sing/Sign'
+import Auth from './components/Auth/Auth'
+import Sign from './components/card/create/Sign'
+
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -9,7 +11,7 @@ function App() {
     <>
       <div className="app-wrapper">
         <div className='container login'>
-          <Login />
+          <Auth />
         </div>
         <div className='container hello'>
           <Sign />

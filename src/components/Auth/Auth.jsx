@@ -1,5 +1,5 @@
 import React from 'react';
-import './Login.css';
+import './Auth.css';
 import GitHub from '../../assets/github.svg';
 import Linkedin from '../../assets/linkedin.svg';
 import Google from '../../assets/google.svg';

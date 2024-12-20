@@ -11,12 +11,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center; 
-    margin-top: 15px;
+    margin: 10px auto;
     min-height: 100vh; 
     max-width: 1500px;
     border-radius: 20px;
     background-color: #d0d0d0;
     overflow-y: hidden;
+
 }
 
 .app-wrapper {

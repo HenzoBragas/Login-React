@@ -1,0 +1,26 @@
+.slider-container.container {
+    position: relative;
+    transition: transform 0.8s ease-in-out;
+}
+
+.login-active {
+    transform: translateX(-100%); /* Move para a esquerda */
+}
+
+.slider-auth {
+    position: relative;
+    transition: transform 0.8s ease-in-out;
+}
+
+.slider-auth .login-active {
+    transform: translateX(-100%);
+}
+
+/* Quando a seção de sign-up estiver ativa */
+.sign-active {
+    transform: translateX(0); /* Fica visível */
+}
+
+.hello{
+    z-index: 1;
+}
